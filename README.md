@@ -55,7 +55,7 @@ Les accès à l'octet et au demi-mot passent par des **byte enables (BE)** :
 
 ## 3. Le SoC et sa carte mémoire
 
-![Carte mémoire](figures/memory_map.png)
+![Carte mémoire](memory_map.png)
 
 | Bloc | Rôle | Taille | Adresses |
 |---|---|---|---|
@@ -73,7 +73,7 @@ Les mémoires ROM sont initialisées par des fichiers `.mem` (`ROM0.mem` pour le
 
 ## 4. Le bus AXI
 
-![Bus AXI](figures/bus_axi.png)
+![Bus AXI](bus_axi.png)
 
 Le bus suit le principe d'**AMBA AXI** : cinq canaux indépendants, chacun avec un signal `VALID` (émetteur) et un signal `READY` (récepteur).
 
@@ -101,7 +101,7 @@ Chaque esclave (ROM, RAM, UART, GPIO) est lui aussi décrit par une petite machi
 
 Compilation et simulation sous **ModelSim SE-64 2020.4**.
 
-![Simulation ModelSim](figures/simulation_modelsim.png)
+![Simulation ModelSim](simulation_modelsim.png)
 
 La courbe montre le cœur qui lit ses instructions dans la ROM : le signal `ARvalid` demande l'instruction, `Rvalid` et `Rready` marquent le transfert de la donnée.
 
