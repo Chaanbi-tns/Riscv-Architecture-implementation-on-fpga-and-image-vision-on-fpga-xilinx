@@ -73,7 +73,7 @@ Les mémoires ROM sont initialisées par des fichiers `.mem` (`ROM0.mem` pour le
 
 ## 4. Le bus AXI
 
-![Bus AXI](Riscv_AXI.png)
+![Bus AXI](Bus_AXI.png)
 
 Le bus suit le principe d'**AMBA AXI** : cinq canaux indépendants, chacun avec un signal `VALID` (émetteur) et un signal `READY` (récepteur).
 
