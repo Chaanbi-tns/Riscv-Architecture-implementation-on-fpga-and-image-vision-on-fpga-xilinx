@@ -2,7 +2,7 @@
 
 Conception en VHDL d'un processeur **RISC-V RV32I monocycle** et de son **système sur puce (SoC)** : bus **AXI** à 5 canaux, mémoires ROM et RAM, UART et GPIO. Le projet est réalisé dans le cadre d'un bureau d'études (BE) de conception de SoC à l'ENIT (Génie Électrique), de l'unité arithmétique jusqu'au SoC complet.
 
-![Architecture du SoC](figures/architecture_riscv.png)
+![Architecture du SoC](architecture_riscv.png)
 
 ---
 
