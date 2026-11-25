@@ -66,7 +66,7 @@ Byte and half-word accesses use **byte enables (BE)**:
 
 ## 🟠 3. The SoC and its memory map
 
-<p align="center"><img src="memory_map.png" alt="Memory map" width="85%"></p>
+<p align="center"><img src="memory_map.png" alt="Memory map" width="65%"></p>
 
 | Block | Role | Size | Addresses |
 |---|---|---|---|
